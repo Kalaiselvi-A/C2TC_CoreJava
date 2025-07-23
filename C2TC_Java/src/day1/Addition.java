@@ -5,17 +5,13 @@ public class Addition {
 
 	public static void main(String[] args) {
 		
-		int a;
-		int b;
-		int c;
+		String name;
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the values: ");
-		a = scanner.nextInt();
-		b = scanner.nextInt();
-		c = a+b;
+		System.out.println("Enter name: ");
+		name = scanner.nextLine();
 		
-		System.out.print("Addition of a = " + a + ", b = " + b + " is " + c);
+		System.out.print("Name : " + name);
 
 	}
 
